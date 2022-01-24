@@ -11,12 +11,12 @@
 		<key>MUNKI_CATEGORY</key>
 		<string>Admin Utils</string>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>app</string>
+		<string>apps</string>
 		<key>pkginfo</key>
 		<dict>
             <key>catalogs</key>
             <array>
-                <string>testing</string>
+                <string>okt_catalog<</string>
             </array>
             <key>description</key>
             <string>Connect to a computer remotely, be it from the other end of the office or halfway around the world.
