@@ -16,7 +16,7 @@
 		<dict>
             <key>catalogs</key>
             <array>
-                <string>okt_catalog<</string>
+                <string>okt_catalog</string>
             </array>
             <key>description</key>
             <string>Connect to a computer remotely, be it from the other end of the office or halfway around the world.
