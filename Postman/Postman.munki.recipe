@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>apps/Postman</string>
+        <string>apps</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>developer</string>
         <key>pkginfo</key>
