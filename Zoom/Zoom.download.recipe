@@ -4,8 +4,8 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the current release version of Zoom.
-		url for x86: https://zoom.us/support/download
-		url for arm64: https://zoom.us/support/download
+		url for x86: https://zoom.us/client/5.12.3.11845/zoomusInstallerFull.pkg
+		url for arm64: https://zoom.us/client/5.12.3.11845/zoomusInstallerFull.pkg
 	</string>
 	<key>Identifier</key>
 	<string>com.github.GiafarOKTANAIT.download.Zoom</string>
@@ -14,7 +14,7 @@
 		<key>NAME</key>
 		<string>Zoom</string>
 		<key>url</key>
-		<string>https://zoom.us/support/download</string>
+		<string>https://zoom.us/client/5.12.3.11845/zoomusInstallerFull.pkg</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.1</string>
