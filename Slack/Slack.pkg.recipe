@@ -101,5 +101,26 @@ chown $loggedInUser:staff  /Users/$loggedInUser/Library/Preferences/com.tinyspec
 			</dict>
 		</dict>
 	</array>
+	    <key>postinstall_script</key>
+    <string>#!/bin/sh
+
+mkdir -p -m 775 /usr/local/bin
+cp /Applications/TextWrangler.app/Contents/MacOS/edit /usr/local/bin/
+cp /Applications/TextWrangler.app/Contents/MacOS/twdiff /usr/local/bin/
+cp /Applications/TextWrangler.app/Contents/MacOS/twfind /usr/local/bin/
+
+mkdir -p -m 775 /usr/local/share/man/man1
+cp /Applications/TextWrangler.app/Contents/Resources/edit.1 /usr/local/share/man/man1/
+cp /Applications/TextWrangler.app/Contents/Resources/twdiff.1 /usr/local/share/man/man1/
+cp /Applications/TextWrangler.app/Contents/Resources/twfind.1 /usr/local/share/man/man1/
+
+exit 0
+    </string>
+    <key>uninstall_method</key>
+    <string>remove_copied_items</string>
+    <key>uninstallable</key>
+    <true/>
+    <key>version</key>
+    <string>3.5.3</string>
 </dict>
 </plist>
