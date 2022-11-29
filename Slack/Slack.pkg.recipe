@@ -60,7 +60,6 @@
 			<string>%RECIPE_CACHE_DIR%/Scripts/postinstall</string>
 			<key>file_mode</key>
 			<string>0755</string>
-			<key>file_content</key>
 			<key>postinstall_script</key>
 			<string>#!/bin/bash
 # Determine logged in user
