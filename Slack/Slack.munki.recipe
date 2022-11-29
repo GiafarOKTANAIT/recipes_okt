@@ -32,13 +32,14 @@
 			<true/>
 			<key>postinstall_script</key>
 		            <string>#!/bin/bash
-PATH=/bin:/sbin:/usr/bin:/usr/sbin
-console_uid="$(stat -f "%u" /dev/console)"
-if [[ -n "$console_uid" &amp;&amp; $console_uid -ne 0 ]]; then
-    console_user="$(id -un $console_uid)"
-    sudo -u $console_user /usr/bin/qlmanage -r
-fi
-exit 0
+# Determine logged in user
+loggedInUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ &amp;&amp; ! /loginwindow/ { print $3 }' )
+
+# Disable automatic updates
+defaults write /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap SlackNoAutoUpdates -bool YES
+
+# Fix Permmission
+chown $loggedInUser:staff  /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap.plist
 		            </string>
 		</dict>
 	</dict>
