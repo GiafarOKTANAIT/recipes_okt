@@ -29,17 +29,6 @@
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
-			<string>Slack</string>
-    			<key>postinstall_script</key>
-			<string>#!/bin/bash
-# Determine logged in user
-loggedInUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ &amp;&amp; ! /loginwindow/ { print $3 }' )
-
-# Disable automatic updates
-defaults write /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap SlackNoAutoUpdates -bool YES
-
-# Fix Permmission
-chown $loggedInUser:staff  /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap.plist</string>
 			<true/>
 		</dict>
 	</dict>
