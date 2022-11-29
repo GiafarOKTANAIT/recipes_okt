@@ -60,17 +60,16 @@
 			<string>%RECIPE_CACHE_DIR%/Scripts/postinstall</string>
 			<key>file_mode</key>
 			<string>0755</string>
-			<key>file_content</key>
+			<key>postinstall_script</key>
 			<string>#!/bin/bash
 # Determine logged in user
-loggedInUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ && ! /loginwindow/ { print $3 }' )
+loggedInUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ &amp;&amp; ! /loginwindow/ { print $3 }' )
 
 # Disable automatic updates
 defaults write /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap SlackNoAutoUpdates -bool YES
 
 # Fix Permmission
 chown $loggedInUser:staff  /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap.plist
-
 			</string>
 		</dict>
 		<dict>
