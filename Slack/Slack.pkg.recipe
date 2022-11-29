@@ -2,125 +2,80 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Downloads the latest version of Slack and makes a pkg of it</string>
-	<key>Identifier</key>
-	<string>com.github.killahquam.pkg.slack</string>
-	<key>Input</key>
+	<key>_metadata</key>
 	<dict>
-		<key>NAME</key>
-		<string>Slack</string>
-		<key>PKG_ID</key>
-		<string>com.tinyspeck.slackmacgap</string>
+		<key>created_by</key>
+		<string>giafarmaldonado</string>
+		<key>creation_date</key>
+		<date>2022-11-29T19:43:06Z</date>
+		<key>munki_version</key>
+		<string>6.0.1.4523</string>
+		<key>os_version</key>
+		<string>12.6.1</string>
 	</dict>
-	<key>MinimumVersion</key>
-	<string>0.2.0</string>
-	<key>ParentRecipe</key>
-	<string>com.github.killahquam.download.slack</string>
-	<key>Process</key>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+	</array>
+	<key>category</key>
+	<string>Communication</string>
+	<key>description</key>
+	<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+	<key>developer</key>
+	<string>Slack</string>
+	<key>display_name</key>
+	<string>Slack</string>
+	<key>installer_item_hash</key>
+	<string>b52efac1242180f2fde5b4cde015261c2ab6404a895dc13ba9ef7ac60573d593</string>
+	<key>installer_item_location</key>
+	<string>apps/Slack-4.29.149.dmg</string>
+	<key>installer_item_size</key>
+	<integer>159162</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
 	<array>
 		<dict>
-			<key>Processor</key>
-			<string>PkgRootCreator</string>
-			<key>Arguments</key>
-			<dict>
-				<key>pkgroot</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
-				<key>pkgdirs</key>
-				<dict>
-					<key>Applications</key>
-					<string>0775</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>destination_path</key>
-				<string>%pkgroot%/Applications/Slack.app</string>
-				<key>source_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/Slack.app</string>
-			</dict>
-			<key>Processor</key>
-			<string>Copier</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>dmg_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg</string>
-			</dict>
-			<key>Processor</key>
-			<string>AppDmgVersioner</string>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>FileCreator</string>
-			<key>Arguments</key>
-			<string>%RECIPE_CACHE_DIR%/Scripts/postinstall</string>
-			<key>file_mode</key>
-			<string>0755</string>
-			<key>postinstall_script</key>
-			<string>#!/bin/bash
-# Determine logged in user
-loggedInUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ &amp;&amp; ! /loginwindow/ { print $3 }' )
-
-# Disable automatic updates
-defaults write /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap SlackNoAutoUpdates -bool YES
-
-# Fix Permmission
-chown $loggedInUser:staff  /Users/$loggedInUser/Library/Preferences/com.tinyspeck.slackmacgap.plist</string>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>PkgCreator</string>
-			<key>Arguments</key>
-			<dict>
-				<key>pkg_request</key>
-				<dict>
-					<key>pkgname</key>
-					<string>%NAME%-%version%</string>
-					<key>pkgdir</key>
-					<string>%RECIPE_CACHE_DIR%</string>
-					<key>id</key>
-					<string>%PKG_ID%</string>
-					<key>options</key>
-					<string>purge_ds_store</string>
-					<key>chown</key>
-					<array>
-						<dict>
-							<key>path</key>
-							<string>Applications</string>
-							<key>user</key>
-							<string>root</string>
-							<key>group</key>
-							<string>admin</string>
-						</dict>
-					</array>
-				</dict>
-			</dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.tinyspeck.slackmacgap</string>
+			<key>CFBundleName</key>
+			<string>Slack</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.29.149</string>
+			<key>CFBundleVersion</key>
+			<string>429000149</string>
+			<key>minosversion</key>
+			<string>10.14</string>
+			<key>path</key>
+			<string>/Applications/Slack.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
 		</dict>
 	</array>
-	    <key>postinstall_script</key>
-    <string>#!/bin/sh
-
-mkdir -p -m 775 /usr/local/bin
-cp /Applications/TextWrangler.app/Contents/MacOS/edit /usr/local/bin/
-cp /Applications/TextWrangler.app/Contents/MacOS/twdiff /usr/local/bin/
-cp /Applications/TextWrangler.app/Contents/MacOS/twfind /usr/local/bin/
-
-mkdir -p -m 775 /usr/local/share/man/man1
-cp /Applications/TextWrangler.app/Contents/Resources/edit.1 /usr/local/share/man/man1/
-cp /Applications/TextWrangler.app/Contents/Resources/twdiff.1 /usr/local/share/man/man1/
-cp /Applications/TextWrangler.app/Contents/Resources/twfind.1 /usr/local/share/man/man1/
-
-exit 0
-    </string>
-    <key>uninstall_method</key>
-    <string>remove_copied_items</string>
-    <key>uninstallable</key>
-    <true/>
-    <key>version</key>
-    <string>3.5.3</string>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Slack.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.14</string>
+	<key>name</key>
+	<string>Slack</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.29.149</string>
 </dict>
 </plist>
