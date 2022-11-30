@@ -19,11 +19,15 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Developer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Android Studio will help you develop your app in a more productive way at scale. Android Studio provides the fastest tools for building apps on every Android device. Code with confidence. Building without limits. Build rich experiences. Create connected apps.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/android.png"&gt;</string>>
 			<key>developer</key>
-			<string>Google LLC</string>
+			<string>Google</string>
 			<key>display_name</key>
 			<string>Android Studio</string>
 			<key>name</key>
