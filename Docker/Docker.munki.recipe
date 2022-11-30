@@ -19,9 +19,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Developer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Docker is a platform designed to help developers build, share, and run modern applications. We handle the tedious setup, so you can focus on the code.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/docker.png"&gt;</string>
 			<key>developer</key>
 			<string>Docker Inc</string>
 			<key>display_name</key>
