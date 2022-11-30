@@ -19,13 +19,17 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Administration</string>
 			<key>description</key>
-			<string> </string>
+			<string>Play millions of songs and podcasts on your device.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/spoty.png"&gt;</string>
 			<key>developer</key>
 			<string>Spotify</string>
 			<key>display_name</key>
-			<string>Install Spotify</string>
+			<string>Spotify</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
