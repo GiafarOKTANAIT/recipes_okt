@@ -19,9 +19,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Administration</string>
 			<key>description</key>
-			<string> </string>
+			<string>Support modeling with SysML diagrams: Requirement, Block Definition, Internal Block, and Parametric Diagram. Additional Diagrams. 
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/staruml.png"&gt;</string>
 			<key>developer</key>
 			<string>MKLabs Co.,Ltd.</string>
 			<key>display_name</key>
