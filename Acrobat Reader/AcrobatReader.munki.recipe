@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Oktana v1.0 (https://github.com/GiafarOKTANAIT/recipes_okt)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Acrobat Reader and imports it into Munki.</string>
 	<key>Identifier</key>
@@ -30,13 +30,18 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Designer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/adobereader.png"&gt;
+</string>
 			<key>developer</key>
-			<string>Adobe Inc.</string>
+			<string>Adobe</string
 			<key>display_name</key>
-			<string>Acrobat Reader</string>
+			<string>Adobe Acrobat Reader</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
