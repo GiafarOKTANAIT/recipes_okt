@@ -19,9 +19,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Developer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Enjoy working with databases. Meet DataGrip, our new database IDE that is tailored to suit the specific needs of professional SQL developers.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/datagrip.png"&gt;</string>
 			<key>developer</key>
 			<string>JetBrains s.r.o.</string>
 			<key>display_name</key>
