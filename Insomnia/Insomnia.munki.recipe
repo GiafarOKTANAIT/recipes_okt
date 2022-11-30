@@ -19,9 +19,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Developer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Build APIs that work. Deliver high quality APIs through standards and collaboration with the Insomnia API design platform.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/insomia.png"&gt;</string>
 			<key>developer</key>
 			<string>Kong Inc.</string>
 			<key>display_name</key>
