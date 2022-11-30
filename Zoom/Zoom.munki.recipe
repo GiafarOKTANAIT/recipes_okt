@@ -23,9 +23,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Chatter</string>
 			<key>description</key>
-			<string>Zoom is for you. We're here to help you connect, communicate, and express your ideas so you can get more done together. We're proud to be trusted by millions of enterprises, small businesses, and individuals, just like you.</string>
+			<string>Zoom is for you. We're here to help you connect, communicate, and express your ideas so you can get more done together. We're proud to be trusted by millions of enterprises, small businesses, and individuals, just like you.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/zoom.png"&gt;</string>
 			<key>developer</key>
 			<string>Zoom Video Communications, Inc.</string>
 			<key>display_name</key>
