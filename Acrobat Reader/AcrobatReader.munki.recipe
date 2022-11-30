@@ -30,6 +30,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
 			<key>description</key>
 			<string> </string>
