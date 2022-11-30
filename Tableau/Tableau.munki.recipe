@@ -25,11 +25,17 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Salesforce</string>
 			<key>description</key>
-			<string>Tableau Desktop is data visualization software that lets you see and understand data in minutes.</string>
+			<string>Live Visualization &amp; Interactive Dashboards Reveal Hidden Insights. Try it Free! Free Training. Mobile Analytics. Big Data Analytics. Drag &amp; Drop.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/tableu.png"&gt;</string>
+			<key>developer</key>
+			<string>Salesforce</string>
 			<key>display_name</key>
-			<string>Tableau Desktop</string>
+			<string>Tableau Public</string>
 			<key>installer_choices_xml</key>
 			<array>
 				<dict>
