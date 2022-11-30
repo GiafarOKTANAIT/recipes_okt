@@ -19,13 +19,16 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
 			<key>category</key>
-			<string>%MUNKI_CATEGORY%</string>
+			<string>Code Editor</string>
 			<key>description</key>
-			<string>A hackable text editor for the 21st Century</string>
+			<string>Atom is a desktop application built with HTML, JavaScript, CSS, and Node.js integration. It runs on Electron, a framework for building cross platform apps using web technologies.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/atom.png"&gt;
+</string>
 			<key>developer</key>
-			<string>GitHub, Inc.</string>
+			<string>Atom</string>
 			<key>display_name</key>
 			<string>Atom</string>
 			<key>name</key>
