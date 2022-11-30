@@ -19,15 +19,17 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
 			<key>category</key>
-			<string>%MUNKI_CATEGORY%</string>
+			<string>Virtualization</string>
 			<key>description</key>
-			<string>Oracle VirtualBox Extension Pack: Support for USB 2.0 devices, VirtualBox RDP and PXE boot for Intel cards.</string>
+			<string>Oracle VM VirtualBox is a type-2 hypervisor for x86 virtualization developed by Oracle Corporation. VirtualBox was originally created by Innotek GmbH, which was acquired by Sun Microsystems in 2008, which was in turn acquired by Oracle in 2010.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/virtualbox.png"&gt;</string>
 			<key>developer</key>
 			<string>Oracle</string>
 			<key>display_name</key>
-			<string>VirtualBox Extension Pack</string>
+			<string>VirtualBox</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
