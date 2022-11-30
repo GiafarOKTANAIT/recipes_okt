@@ -26,15 +26,18 @@ To use this recipe:
             <key>catalogs</key>
             <array>
                 <string>testing</string>
+                <string>okt_catalog</string>
             </array>
             <key>category</key>
-            <string>%MUNKI_CATEGORY%</string>
+            <string>VPN</string>
             <key>description</key>
-            <string>FortiClient uses SSL and IPSec VPN to provide secure, reliable access to corporate networks and applications from virtually any internet-connected remote location. FortiClient simplifies remote user experience with built-in auto-connect and always-up VPN features. Two-Factor authentication can also be used to provide an additional layer of security.</string>
+            <string>FortiClient EMS helps centrally manage, monitor, provision, patch, quarantine, dynamically categorize and provide deep real-time endpoint visibility.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/forticlient.png"&gt;
+</string>
             <key>developer</key>
-            <string>Fortinet</string>
+            <string>Oracle</string>
             <key>display_name</key>
-            <string>FortiClient VPN</string>
+            <string>FortiClient</string>
             <key>name</key>
             <string>%NAME%</string>
             <key>unattended_install</key>
