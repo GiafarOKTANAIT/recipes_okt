@@ -19,9 +19,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Developer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/github.png"&gt;</string>
 			<key>developer</key>
 			<string>GitHub</string>
 			<key>display_name</key>
