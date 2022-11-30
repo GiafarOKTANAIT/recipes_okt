@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Oktana v1.0 (https://github.com/GiafarOKTANAIT/recipes_okt)</string>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of Acrobat Reader and imports it into Munki.</string>
 	<key>Identifier</key>
@@ -20,28 +20,23 @@
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Acrobat Update Helper.app</string>
 				<string>Adobe Acrobat Reader.app</string>
 				<string>Adobe Acrobat Updater.app</string>
-				<string>AcroInstallAlert.app</string>
+				<string>Acrobat Update Helper.app</string>
 				<string>NativeMessagingHost.app</string>
+				<string>AcroInstallAlert.app</string>
 				<string>RdrServicesUpdater.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
-					<string>testing</string>
-					<string>okt_catalog</string>
-					<key>category</key>
-					<string>Designer</string>
+				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Adobe® Reader® is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia.
-&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/adobereader.png"&gt;
-</string>
+			<string> </string>
 			<key>developer</key>
-			<string>Adobe</string>
+			<string>Adobe Inc.</string>
 			<key>display_name</key>
-			<string>Adobe Reader</string>
+			<string>Acrobat Reader</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -68,3 +63,4 @@
 	</array>
 </dict>
 </plist>
+
