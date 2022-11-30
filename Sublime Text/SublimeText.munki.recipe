@@ -19,13 +19,17 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
-			<key>description</key>
-			<string> </string>
+				<key>category</key>
+				<string>Code Editor</string>
+				<key>description</key>
+				<string>The first stable release of Sublime Text 4 has finally arrived! We've worked hard on providing improvements without losing focus on what makes Sublime Text great. There are some new major features that we hope will significantly improve your workflow and a countless number of minor improvements across the board.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/sublimetext4.png"&gt;</string>
 			<key>developer</key>
-			<string>Sublime HQ Pty Ltd</string>
+			<string>Sublime</string>
 			<key>display_name</key>
-			<string>Sublime Text</string>
+			<string>SublimeText4</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
