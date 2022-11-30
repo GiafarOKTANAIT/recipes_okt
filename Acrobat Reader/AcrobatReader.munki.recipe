@@ -30,16 +30,13 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
-				<string>okt_catalog</string>
 			</array>
-			<key>category</key>
-			<string>Designer</string>
 			<key>description</key>
 			<string> </string>
 			<key>developer</key>
-			<string>Adobe</string
+			<string>Adobe Inc.</string>
 			<key>display_name</key>
-			<string>Adobe Acrobat Reader</string>
+			<string>Acrobat Reader</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
