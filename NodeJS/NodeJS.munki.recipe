@@ -18,12 +18,15 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
+				<string>testing</string>
 				<string>okt_catalog</string>
 			</array>
 			<key>category</key>
-			<string>%MUNKI_CATEGORY%</string>
+			<string>Developer</string>
 			<key>description</key>
-			<string>As an asynchronous event driven framework.</string>
+			<string>Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. &lt;b&gt;
+This program requires a license&lt;/b&gt;
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/nodejs.png"&gt;</string>
 			<key>developer</key>
 			<string>Joyent, Inc.</string>
 			<key>display_name</key>
