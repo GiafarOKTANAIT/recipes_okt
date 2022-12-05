@@ -24,8 +24,7 @@
 			<key>category</key>
 			<string>Developer</string>
 			<key>description</key>
-			<string>Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment. &lt;b&gt;
-This program requires a license&lt;/b&gt;
+			<string>Node.js is an open-source server environment. Node.js is cross-platform and runs on Windows, Linux, Unix, and macOS. Node.js is a back-end JavaScript runtime environment.
 &lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/nodejs.png"&gt;</string>
 			<key>developer</key>
 			<string>Joyent, Inc.</string>
