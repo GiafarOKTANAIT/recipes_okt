@@ -19,11 +19,16 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Password Manager</string>
 			<key>description</key>
-			<string> </string>
+			<string>KeePassXC - Cross-Platform Password Manager
+Never forget a password again. Securely store passwords using industry standard encryption, quickly auto-type them into desktop applications, and use our browser extension to log into websites.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/keepass.png"&gt;</string>
 			<key>developer</key>
-			<string>Janek Bevendorff</string>
+			<string>KeePassXC Team</string>
 			<key>display_name</key>
 			<string>KeePassXC</string>
 			<key>name</key>
