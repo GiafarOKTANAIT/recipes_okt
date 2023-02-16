@@ -19,7 +19,7 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
-				<string>okt_catalog</string
+				<string>okt_catalog</string>
 			</array>
 			<key>category</key>
 			<string>Salesforce</string>	
