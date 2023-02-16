@@ -19,9 +19,14 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string
 			</array>
+			<key>category</key>
+			<string>Salesforce</string>	
 			<key>description</key>
-			<string> </string>
+			<string>Download Anypoint Studio and Mule. Build and test APIs and integrations quickly with Anypoint Platform's desktop IDE. &lt;b&gt;
+This program requires a license&lt;/b&gt;
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/anypoint.png"&gt;</string>
 			<key>developer</key>
 			<string>salesforce.com</string>
 			<key>display_name</key>
