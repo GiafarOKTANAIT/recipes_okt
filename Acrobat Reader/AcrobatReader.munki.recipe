@@ -30,13 +30,18 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Designer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Adobe Acrobat is a family of application software and Web services developed by Adobe Inc. to view, create, manipulate, print and manage Portable Document Format files.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/adobereader.png"&gt;
+			</string>
 			<key>developer</key>
-			<string>Adobe Inc.</string>
+			<string>Adobe</string>
 			<key>display_name</key>
-			<string>Acrobat Reader</string>
+			<string>Adobe Acrobat Reade</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
