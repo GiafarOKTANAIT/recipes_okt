@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://www.jetbrains.com/datagrip/download/download-thanks.html?platform=mac</string>
+				<string>https://download-cdn.jetbrains.com/datagrip/datagrip-2022.3.3.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
