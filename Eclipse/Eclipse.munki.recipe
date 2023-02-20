@@ -19,13 +19,17 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>okt_catalog</string>
 			</array>
+			<key>category</key>
+			<string>Developer</string>
 			<key>description</key>
-			<string> </string>
+			<string>The essential tools for any Java developer, including a Java IDE, a CVS client, Git client, XML Editor, Mylyn, Maven integration.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/eclipse.png"&gt;</string>
 			<key>developer</key>
-			<string>Eclipse Foundation, Inc.</string>
+			<string>Eclipse Foundation</string>
 			<key>display_name</key>
-			<string>Eclipse</string>
+			<string>Eclipse IDE for Java Developers</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
