@@ -21,11 +21,16 @@
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>testing</string>
 			</array>
+			<key>category</key>
+			<string>Designer</string>
 			<key>description</key>
-			<string> </string>
+			<string>Design, prototype, and gather feedback all in one place with Figma. With Figma, everyone works towards a shared goal. This has enabled our product teams to ship new products faster and feel more confident in their decisions.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/figma.png"&gt;
+</string>
 			<key>developer</key>
-			<string>Figma, Inc.</string>
+			<string>Figma</string>
 			<key>display_name</key>
 			<string>Figma</string>
 			<key>name</key>
