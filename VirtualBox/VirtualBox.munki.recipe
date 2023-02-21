@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of VirtualBox and imports it into Munki.</string>
+	<key>Identifier</key>
+	<string>com.github.GiafarOKTANAIT.munki.VirtualBox</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>VirtualBox</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>vmstarter.app</string>
+				<string>VirtualBoxVM.app</string>
+				<string>VirtualBox.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+				<string>okt_catalog</string>
+			</array>
+			<key>category</key>
+			<string>Virtualization</string>
+			<key>description</key>
+			<string>Oracle VM VirtualBox is a type-2 hypervisor for x86 virtualization developed by Oracle Corporation. VirtualBox was originally created by Innotek GmbH, which was acquired by Sun Microsystems in 2008, which was in turn acquired by Oracle in 2010.
+&lt;br&gt;&lt;br&gt; &lt;img src="https://raw.githubusercontent.com/GiafarOKTANAIT/recipes_okt/main/artwork/virtualbox.png"&gt;</string>
+			<key>developer</key>
+			<string>Oracle</string>
+			<key>display_name</key>
+			<string>VirtualBox</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.GiafarOKTANAIT.download.VirtualBox</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
