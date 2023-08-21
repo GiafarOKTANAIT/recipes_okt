@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://r3---sn-uqx2-aphel.gvt1.com/edgedl/android/studio/install/2021.3.1.17/android-studio-2021.3.1.17-mac.dmg?cms_redirect=yes&amp;mh=F4&amp;mip=181.66.144.39&amp;mm=28&amp;mn=sn-uqx2-aphel&amp;ms=nvh&amp;mt=1668090898&amp;mv=u&amp;mvi=3&amp;pcm2cms=yes&amp;pl=23&amp;rmhost=r7---sn-uqx2-aphel.gvt1.com&amp;shardbypass=sd&amp;smhost=r2---sn-uqx2-aph6e.gvt1.com</string>
+				<string>https://r1---sn-uqx2-aphee.gvt1.com/edgedl/android/studio/install/2022.3.1.18/android-studio-2022.3.1.18-mac.dmg?cms_redirect=yes&amp;mh=tp&amp;mip=181.67.117.127&amp;mm=28&amp;mn=sn-uqx2-aphee&amp;ms=nvh&amp;mt=1692631948&amp;mv=m&amp;mvi=1&amp;pcm2cms=yes&amp;pl=23&amp;rmhost=r7---sn-uqx2-aphee.gvt1.com&amp;shardbypass=sd&amp;smhost=r1---sn-uqx2-aphel.gvt1.com</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
