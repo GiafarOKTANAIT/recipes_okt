@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://releases.warp.dev/stable/v0.2023.04.11.08.03.stable_00/Warp.dmg</string>
+				<string>https://releases.warp.dev/stable/v0.2023.08.15.08.03.stable_00/Warp.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
