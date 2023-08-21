@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v6.20/macos/pgadmin4-6.20.dmg</string>
+				<string>https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v7.5/macos/pgadmin4-7.5-x86_64.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
