@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://objects.githubusercontent.com/github-production-release-asset-2e65be/299354207/3331b92d-a9ce-4ae2-9d61-e1c39c4c5e6f?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230222%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230222T190723Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=234f916af7a05461036a05b77a12d07f3bc2472724245d554ebcffe2d0911a3c&amp;X-Amz-SignedHeaders=host&amp;actor_id=96845641&amp;key_id=0&amp;repo_id=299354207&amp;response-content-disposition=attachment%3B%20filename%3Drustdesk-1.1.9.dmg&amp;response-content-type=application%2Foctet-stream</string>
+				<string>https://objects.githubusercontent.com/github-production-release-asset-2e65be/299354207/89543bff-5ce7-42b6-8d50-bfe715dd2987?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230821%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230821T184209Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=fd88f8da4d90f99105686c58c85fd02202090834c9c11560a3d034062e30140b&amp;X-Amz-SignedHeaders=host&amp;actor_id=96845641&amp;key_id=0&amp;repo_id=299354207&amp;response-content-disposition=attachment%3B%20filename%3Drustdesk-1.2.2-x86_64.dmg&amp;response-content-type=application%2Foctet-stream</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
