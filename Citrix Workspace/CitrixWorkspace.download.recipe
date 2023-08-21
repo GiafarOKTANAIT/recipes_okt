@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://downloads.citrix.com/21624/CitrixWorkspaceApp.dmg?__gda__=exp=1677706545~acl=/*~hmac=cab18e891fc0c4442d66bdf03f9c1a9bb6aa9615e889fb0519dba5fe1b3bde76</string>
+				<string>https://downloads.citrix.com/22055/CitrixWorkspaceApp.dmg?__gda__=exp=1692640119~acl=/*~hmac=1d61042549b7ce7e3655a653e8af632bdfd3731e80a67c05318fb71144f85367</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
