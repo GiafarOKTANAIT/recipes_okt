@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://objects.githubusercontent.com/github-production-release-asset-2e65be/52729242/0fb82ca4-0d3c-442b-89b3-4c66c2061287?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230214%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230214T165847Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=267b8f852eed3f1cf63a332585131450f19161638fec14314a47d2390ca491a5&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=52729242&amp;response-content-disposition=attachment%3B%20filename%3DKeePassXC-2.7.4-x86_64.dmg&amp;response-content-type=application%2Foctet-stream</string>
+				<string>https://objects.githubusercontent.com/github-production-release-asset-2e65be/52729242/32de96f8-f4ed-4219-979b-520d4742bcad?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230821%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230821T181119Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=6f1747896dbb07b45696f175ad5a015450abd9e3ef3a32c28c649a2ee70c90ae&amp;X-Amz-SignedHeaders=host&amp;actor_id=96845641&amp;key_id=0&amp;repo_id=52729242&amp;response-content-disposition=attachment%3B%20filename%3DKeePassXC-2.7.6-x86_64.dmg&amp;response-content-type=application%2Foctet-stream</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
